@@ -1,13 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>G02 EVO | Premium Trading Community</title>
+<title>VIP MARATHI TRADER</title>
 
-<meta name="description" content="Join G02 EVO for daily Nifty, BankNifty and Sensex market analysis.">
+<meta name="description" content="Join King of Nifty for free daily Nifty & BankNifty analysis.">
 
 <style>
 *{
@@ -18,7 +17,7 @@
 
 body{
     font-family:Arial,Segoe UI,sans-serif;
-    background:#f4f7ff;
+    background:#f7f9fc;
     color:#151525;
 }
 
@@ -26,19 +25,20 @@ body{
     width:100%;
     max-width:440px;
     margin:auto;
-    padding:22px 12px;
+    padding:22px 10px;
     text-align:center;
 }
+
 
 /* Online Bar */
 
 .online{
     display:inline-flex;
     align-items:center;
-    gap:7px;
+    gap:6px;
     background:#e8f5e9;
     color:#218739;
-    padding:7px 15px;
+    padding:6px 14px;
     border-radius:30px;
     font-size:11px;
     font-weight:bold;
@@ -49,19 +49,19 @@ body{
     height:7px;
     background:#22c55e;
     border-radius:50%;
-    box-shadow:0 0 7px #22c55e;
 }
+
 
 /* Profile */
 
 .profile{
-    width:105px;
-    height:105px;
+    width:100px;
+    height:100px;
     border-radius:50%;
-    margin:20px auto 10px;
+    margin:18px auto 8px;
     overflow:hidden;
     border:3px solid white;
-    box-shadow:0 4px 18px #c9d8ff;
+    box-shadow:0 4px 15px #ddd;
 }
 
 .profile img{
@@ -70,28 +70,28 @@ body{
     object-fit:cover;
 }
 
+
 /* Title */
 
 h1{
-    font-size:27px;
-    margin:8px 0 5px;
-    font-weight:900;
-    letter-spacing:1px;
-    color:#0755d9;
+    font-size:20px;
+    margin:8px 0 3px;
+    font-weight:800;
 }
 
 .tag{
-    color:#333;
+    color:#0066ff;
     font-weight:bold;
     font-size:12px;
 }
 
+
 /* Rating */
 
 .rating{
-    margin:12px;
+    margin:10px;
     color:#ff9800;
-    font-size:19px;
+    font-size:16px;
 }
 
 .rating small{
@@ -99,95 +99,117 @@ h1{
     font-size:11px;
 }
 
+
 /* Buttons */
 
 .btn{
     position:relative;
     display:block;
+
     width:100%;
     max-width:420px;
-    margin:15px auto;
+
+    margin:14px auto;
+
     overflow:hidden;
 
     background:linear-gradient(
         135deg,
-        #0875ff,
-        #003dbb
+        #0066ff,
+        #004dcc
     );
 
     color:white;
-    padding:19px 8px;
-    border-radius:12px;
+
+    padding:18px 8px;
+
+    border-radius:11px;
+
     text-decoration:none;
+
     font-weight:bold;
-    font-size:14px;
+    font-size:13px;
+
     white-space:nowrap;
 
-    box-shadow:0 5px 15px #b8d0ff;
-    transition:transform .2s;
+    box-shadow:
+        0 4px 12px #b8d0ff;
 }
 
-.btn:active{
-    transform:scale(.97);
-}
 
 /* Sliding Light */
 
 .btn::after{
     content:"";
+
     position:absolute;
+
     top:0;
     left:-100%;
+
     width:45%;
     height:100%;
 
     background:linear-gradient(
         90deg,
         transparent,
-        rgba(255,255,255,.75),
+        rgba(255,255,255,0.75),
         transparent
     );
 
     transform:skewX(-20deg);
+
     animation:buttonLight 2s infinite;
 }
 
 @keyframes buttonLight{
-    0%{left:-100%;}
-    45%{left:120%;}
-    100%{left:120%;}
+
+    0%{
+        left:-100%;
+    }
+
+    45%{
+        left:120%;
+    }
+
+    100%{
+        left:120%;
+    }
+
 }
+
 
 /* Stats */
 
 .stats{
     display:flex;
-    gap:8px;
-    margin:16px 0;
+    gap:7px;
+    margin:14px 0;
 }
 
 .card{
     flex:1;
     background:white;
-    padding:13px 4px;
-    border-radius:12px;
-    box-shadow:0 3px 10px #e5eaff;
+    padding:11px 4px;
+    border-radius:11px;
+    box-shadow:0 2px 7px #eee;
     font-size:11px;
 }
 
 .number{
-    color:#075bea;
-    font-size:19px;
+    color:#0066ff;
+    font-size:17px;
     font-weight:bold;
-    margin-bottom:3px;
+    margin-bottom:2px;
 }
+
 
 /* Content */
 
 .heading{
-    font-size:17px;
+    font-size:15px;
     font-weight:bold;
-    line-height:1.5;
+    line-height:1.4;
 }
 
 .heading span{
@@ -196,47 +218,53 @@ h1{
 
 .sub{
     color:#777;
-    margin:8px;
-    font-size:12px;
-    line-height:1.5;
+    margin:7px;
+    font-size:11px;
 }
+
 
 /* Alert */
 
 .alert{
     background:#fff3e0;
     color:#e65100;
-    padding:11px;
+    padding:9px;
     border-radius:25px;
     font-size:11px;
     font-weight:bold;
-    margin:15px 0;
+    margin:13px 0;
 }
+
 
 /* Features */
 
 .feature{
     background:white;
-    padding:13px;
-    margin:9px 0;
-    border-radius:11px;
+    padding:11px;
+    margin:7px 0;
+    border-radius:10px;
+
     text-align:left;
+
     display:flex;
-    gap:11px;
+    gap:9px;
     align-items:center;
-    box-shadow:0 3px 9px #e9edfa;
+
+    box-shadow:0 2px 6px #eee;
+
     font-size:12px;
 }
 
 .icon{
-    font-size:20px;
+    font-size:18px;
 }
+
 
 /* Footer */
 
 .ads{
-    margin-top:23px;
-    padding:14px;
+    margin-top:22px;
+    padding:13px;
     border-top:1px solid #ddd;
     font-size:11px;
     color:#777;
@@ -249,15 +277,10 @@ h1{
 }
 
 .disclaimer{
-    margin-top:15px;
-    font-size:10px;
+    margin-top:14px;
+    font-size:9px;
     color:#999;
-    line-height:1.5;
-}
-
-.brand{
-    color:#075bea;
-    font-weight:900;
+    line-height:1.4;
 }
 
 </style>
@@ -271,142 +294,208 @@ h1{
 
     <div class="online">
         <span class="dot"></span>
-        TRADING COMMUNITY ONLINE
+        5,947 Traders Online Now
     </div>
+
 
     <!-- Profile -->
 
     <div class="profile">
+
         <img
-        src="https://i.ibb.co/C3MWPLNJ/nz-GBLTyzm38-XC3h-VEwn5-Ix-Vdx6-VR9wc1-T3e-ORuv-U5lw-A1i8-RMAj-Fd-Fkr-Vy1-X9t-MGy-Yyd-Bo-VHOey-Ik9-F-j-GAMj.jpg"
-        alt="G02 EVO Logo">
+        src="https://i.ibb.co/SDrMfkk4/56eb841f-ff57-4ec2-8757-2d121bb4d289.jpg"alt="Logo">
+
     </div>
+
 
     <!-- Title -->
 
-    <h1>G02 EVO</h1>
+    <h1>ZERO TO HERO</h1>
 
     <div class="tag">
-        🚀 PREMIUM TRADING COMMUNITY
+        🏆 India's No.1 Stock Market Channel
     </div>
+
 
     <!-- Rating -->
 
     <div class="rating">
+
         ★★★★★
+
         <br>
-        <small>Trading Education & Market Analysis</small>
+
+        <small>
+            4.9/5 (2340 Reviews)
+        </small>
+
     </div>
+
 
     <!-- Button -->
 
-    <a class="btn"
-    href="https://t.me/+WSCccCJLrkVmMzk1">
+    <a
+    class="btn"
+    href="https://t.me/+ERTxb_7rpl02ZWFl">
 
-        🚀 JOIN G02 EVO TELEGRAM CHANNEL →
+        Join Free Telegram Channel →
 
     </a>
+
 
     <!-- Stats -->
 
     <div class="stats">
 
         <div class="card">
-            <div class="number">50K+</div>
+
+            <div class="number">
+                50K+
+            </div>
+
             Members
+
         </div>
 
+
         <div class="card">
-            <div class="number">5+</div>
+
+            <div class="number">
+                5+
+            </div>
+
             Years
+
         </div>
 
+
         <div class="card">
-            <div class="number">95%</div>
+
+            <div class="number">
+                95%
+            </div>
+
             Accuracy
+
         </div>
 
     </div>
+
 
     <!-- Content -->
 
     <div class="heading">
-        Get <span>FREE Daily Market Analysis</span>
+
+        Get <span>FREE Daily Calls</span>
+
         <br>
-        NIFTY, BANKNIFTY & SENSEX
+
+        for NIFTY, BANKNIFTY & SENSEX
+
     </div>
 
+
     <div class="sub">
-        Join G02 EVO and stay updated with daily market insights and educational trading content.
+
+        Join thousands of traders getting daily market analysis
+
     </div>
+
 
     <!-- Alert -->
 
     <div class="alert">
-        🔥 JOIN G02 EVO - FREE TELEGRAM ACCESS
+
+        🔥 Limited FREE Access Available
+
     </div>
+
 
     <!-- Features -->
 
     <div class="feature">
-        <div class="icon">📊</div>
-        <div>
-            Daily Nifty & BankNifty Market Levels
+
+        <div class="icon">
+            📊
         </div>
+
+        <div>
+            Daily Nifty & BankNifty Levels
+        </div>
+
     </div>
 
+
     <div class="feature">
-        <div class="icon">🎓</div>
+
+        <div class="icon">
+            🎓
+        </div>
+
         <div>
             Educational Market Analysis
         </div>
+
     </div>
 
+
     <div class="feature">
-        <div class="icon">👥</div>
-        <div>
-            Join Our Trading Community
+
+        <div class="icon">
+            👥
         </div>
+
+        <div>
+            50,000+ Subscribers Community
+        </div>
+
     </div>
+
 
     <!-- Second Button -->
 
-    <a class="btn"
-    href="https://t.me/+WSCccCJLrkVmMzk1">
+    <a
+    class="btn"
+    href="https://t.me/+ERTxb_7rpl02ZWFl">
 
-        ⚡ JOIN G02 EVO FOR FREE NOW →
+        Join Free Telegram Channel →
 
     </a>
+
 
     <!-- Disclaimer -->
 
     <div class="disclaimer">
 
-        <strong>DISCLAIMER:</strong>
+        <strong>
+            Disclaimer:
+        </strong>
+
         <br>
 
-        G02 EVO provides educational content and market analysis only.
-        Trading involves market risk and financial loss.
+        This channel is for educational purposes only.
+        Trading involves market risk.
         Please consult your financial advisor before making investment decisions.
 
     </div>
+
 
     <!-- Footer -->
 
     <div class="ads">
 
-        ⚡ POWERED BY
+        🔥 Powered by
 
-        <a href="https://t.me/+rueXSRWaGdE4YmY1">
-            ADCRAFTAGENCY
+        <a href="https://telegram.me/+3XoqJNLxYHswNTc1">
+
+            ADBUILDAGENCY
+
         </a>
 
     </div>
 
 </div>
-
 <!-- Meta Pixel Code -->
-
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -416,17 +505,12 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init', '27962606230101094');
+fbq('init', '1897593371408831');
 fbq('track', 'PageView');
 </script>
-
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=27962606230101094&ev=PageView&noscript=1"/>
-</noscript>
-
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1897593371408831&ev=PageView&noscript=1"
+/></noscript>
 <!-- End Meta Pixel Code -->
-
 </body>
 </html>
